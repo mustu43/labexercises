@@ -4,15 +4,15 @@ public class example3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- String pass1,pass2;
+ String p1,p2;
  Scanner sc=new Scanner(System.in);
  System.out.println("Enter your password");
- pass1=sc.next();
+ p1=sc.next();
  System.out.println("confirm your password");
- pass2=sc.next();
+ p2=sc.next();
 	sc.close();
-	if(pass1.equals(pass2)) {
-		System.out.println("Allow");
+	if(p1.equals(p2)) {
+		System.out.println("password match");
 	} 
 	else
 	{
