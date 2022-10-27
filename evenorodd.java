@@ -1,5 +1,5 @@
 package javaexamples;
-import java.util.Scanner;
+import java.util.*;
 
 public class evenorodd{
 
